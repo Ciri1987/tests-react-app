@@ -1,0 +1,32 @@
+.add-player {
+    display: flex;
+    justify-content: center;
+    margin: 10% 0;
+}
+
+.add-player-input {
+    min-width: 200px;
+    min-height: 35px;
+    margin: 0 5%;
+    padding: 5px 10px;
+    color: #FFF;
+    font-size: 18px;
+    border: 1px solid rgb(234, 67, 170);
+    background-color: inherit;
+}
+
+.add-player-submit {
+    min-height: 35px;
+    color: rgb(234, 67, 170);
+    font-weight: bold;
+    transition: 0.7s;
+    cursor: pointer;
+    background-color: inherit;
+    border: 2px solid rgb(234, 67, 170);
+    border-radius: 5px;
+}
+
+.add-player-submit:hover {
+    color: #2C3A47;
+    background-color: rgb(234, 67, 170);
+}

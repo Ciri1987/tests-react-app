@@ -1,0 +1,40 @@
+.player {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 3px solid rgb(234, 67, 170);
+}
+
+span {
+    min-width: 30%;
+    max-width: 30%;
+
+    padding: 15px;
+
+    color: rgb(234, 67, 170);
+    font-weight: bold;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.plus-btn:hover {
+    transition: 0.5s;
+    color: green;
+}
+
+.minus-btn:hover {
+    transition: 0.5s;
+    color: red;
+}
+
+.delete-btn {
+    transition: 0.5s;
+    color: #ff4d4d;
+}
+
+.delete-btn:hover {
+    color: #ff3838
+}
