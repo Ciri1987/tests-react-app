@@ -47,7 +47,7 @@ it('should add a new player', () => {
 it('should remove player', () => {
   const players = [
     {
-      name: 'Kunegunda',
+      name: 'Unknown player 1',
       score: 5
     }
   ];

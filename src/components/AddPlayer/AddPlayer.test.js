@@ -14,10 +14,10 @@ it('should triger onPlayerAdd function', () => {
         .find('input')
         .first()
         .getDOMNode();
-    nameInput.value = 'Ania';
+    nameInput.value = 'Anna';
 
     const form = addPlayerComponent.find('form');
     form.simulate('submit');
 
-    expect(onPlayerAdd).toBeCalledWith('Ania');
+    expect(onPlayerAdd).toBeCalledWith('Anna');
 });

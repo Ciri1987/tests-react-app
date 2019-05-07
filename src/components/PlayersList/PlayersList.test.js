@@ -10,11 +10,11 @@ it('renders without crashing', () => {
 it('renders correct number of players', () => {
     const players = [
         {
-            name: 'Kunegunda',
+            name: 'Unknown player 1',
             score: 5
         },
         {
-            name: 'Antos',
+            name: 'Unknown player 2',
             score: 0
         }
     ];
@@ -29,11 +29,11 @@ it('renders correct number of players', () => {
 it('start a score function', () => {
     const players = [
         {
-            name: 'Kunegunda',
+            name: 'Unknown player 1',
             score: 5
         },
         {
-            name: 'Antos',
+            name: 'Unknown player 2',
             score: 0
         }
     ];
@@ -52,7 +52,7 @@ it('start a score function', () => {
 it('start a remove function', () => {
     const players = [
         {
-            name: 'Kunegunda',
+            name: 'Unknown player 1',
             score: 5
         }
     ];

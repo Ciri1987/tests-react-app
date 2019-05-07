@@ -10,11 +10,11 @@ class App extends Component {
     this.state = {
       players: [
         {
-          name: 'Kunegunda',
+          name: 'Unknown player 1',
           score: 5,
         },
         {
-          name: 'Antos',
+          name: 'Unknown player 2',
           score: 0,
         }
       ]
@@ -39,7 +39,7 @@ class App extends Component {
       score: 0,
     }
 
-    playerName === '' ? alert('Please enter name!') :
+    playerName === '' ? alert('Please enter your name!') :
       this.setState({
         players: [...this.state.players, newPlayer]
       })
